@@ -1,6 +1,6 @@
 $left-width: 30%;
 $right-width: 70%;
-$wrapper-width: 1240px;
+$wrapper-width: 1220px;
 
 $bg-url: 'https://images.unsplash.com/photo-1616587894998-eb4d3007bbb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMDE5OXwwfDF8c2VhcmNofDUwfHxzYWxlc3xlbnwwfHx8fDE2NTgyMTA0NzU&ixlib=rb-1.2.1&q=80&w=1080';
 
@@ -37,6 +37,7 @@ $bg-url: 'https://images.unsplash.com/photo-1616587894998-eb4d3007bbb9?crop=entr
 .calc {
   &--wrapper {
     display: flex;
+
     align-items: center;
     justify-content: center;
     height: 100vh;
