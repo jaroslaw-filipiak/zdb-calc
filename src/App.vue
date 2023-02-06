@@ -76,7 +76,8 @@
   const value = ref(80);
 
   const handleView = () => {
-    console.log('handle view');
+    const item = document.querySelector('.calc--right');
+    item.classList.toggle('calc--right__full');
   };
 </script>
 
